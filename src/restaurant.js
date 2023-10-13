@@ -7,7 +7,7 @@ const createRestaurantHomePage = () => {
 
 
     const image = document.createElement('img');
-    image.src = 'D:/Hwiyoung/OneDrive/Documents/The Odin Project/restaurant_page/dist/img1.jpg'.replace(/\\/g, '/');
+    image.src = 'dist/img1.jpg';
     image.height = '300';
     pageContent.appendChild(image);
 
